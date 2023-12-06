@@ -9,7 +9,8 @@ app.use(bodyParser.json())
 app.use(express.static(__dirname))
 
 app.use(bodyParser.urlencoded({ extended: true }));
-mongoose.connect("mongodb+srv://Shrinidhi:Shri@crud.8vx9pff.mongodb.net/users").then(() => {
+
+mongoose.connect("mongodb+srv://faraz99:Real99@cluster0.7oca3ki.mongodb.net/users").then(() => {
     console.log('Connection successful');
 }).catch((e) => {
     console.log('No connection', e);
